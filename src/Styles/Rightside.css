@@ -1,0 +1,115 @@
+.rightcontainer{
+    display: flex;
+height: 110vh;
+width: 60vh;
+    margin-top: -800px;
+ background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZO99UQDbRJHXPOhtThhRLtzf2gs8cHKuXLnzHvtuOEJAvKArH");
+scroll-behavior: smooth;
+
+}
+.rightwrap{
+    height: 600px;
+    width: 400px;
+    margin-top: 150px;
+    background-color: black;
+margin-left: 60px;
+    
+}
+.sndwrap{
+height: 350px;
+width: 300px;
+margin-left: 300px;
+margin-top: -650vh;
+    background-color: bisque;
+    animation-name: endsani;
+    animation-duration: 4s;
+
+}
+.img{
+  
+}
+.imgfile2{
+    height: 300px;
+  width: 300px;
+background-color: aqua;
+
+}
+
+.endswrap{
+    background-color: rgb(255, 255, 255);
+    margin-top: 0px;
+margin-left: -550px;
+    position: relative;
+    width: 600px;
+    height: 120px;
+    margin-top: 680px;
+
+
+    
+}.smalimg{
+    height: 70px;
+    width: 70px;
+    margin-left: 20px;
+
+    margin-top: 30px;
+}
+.smaltext{
+    color: rgb(92, 92, 92);
+}
+.mot-align{
+    height: 130px;
+    width: 40px;
+    background-color: orangered;
+    margin-top: 200px;
+animation: mp;
+animation-duration: 15s;
+transition: 1s;
+animation-iteration-count: infinite;
+position: relative;
+margin-left: 30px;
+}
+
+@keyframes mp{
+    0%   {background-color:orangered; left:0px; top:0px;}
+    25%  {background-color:orangered; left:50px; top:0px;}
+    50%  {background-color: orangered; left:50px; top:0px;}
+    75%  {background-color:orangered; left:0px; top:0px;}
+  }
+
+
+  
+  @keyframes endsani {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+  .hover14 figure {
+	position: relative;
+}
+.hover14 figure::before {
+	position: absolute;
+	top: 80px;
+	left: -75%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 400px;
+	height: 500px;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255, 255, 255, 0.3) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	-webkit-transform: skewX(-30deg);
+    margin-top: 100px;
+}
+.hover14 figure:hover::before {
+	-webkit-animation: shine .75s;
+	animation: shine .75s;
+}
+@-webkit-keyframes shine {
+	100% {
+		left: 50%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 50%;
+	}
+}

@@ -1,0 +1,139 @@
+.hometype{
+    justify-content: center;
+    margin-left: 100px;
+    text-align: center;
+    margin-top: 30px;
+  gap: 30px;
+ 
+
+
+}
+.boximg{
+    height: 350px;
+    width: 350px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+    margin: 0px;
+    
+}
+.iconhover:hover{
+animation: icons;
+text-decoration: none;
+position: relative;
+animation-duration: 1s;
+color: orangered;
+cursor: pointer;
+opacity: -2;
+transition: none;
+
+
+}
+@keyframes icons{
+ 
+
+ 
+
+
+}
+.iconhover{
+  margin-left: 5px;
+}
+.typw:hover{
+  color: orangered;
+cursor: pointer;
+}
+.heads1:hover{
+  color: orangered;
+  cursor: pointer;}
+ 
+
+  .img1{
+    height: 70px;
+   
+    margin-top: 30px;
+    gap: 20px;
+
+
+  }
+  .img2{
+    height: 70px;
+    width: 250px;
+    margin-top: 50px;
+    gap: 20px;
+  }
+  .img3{
+    height: 70px;
+    width: 300px;
+    margin-top: 70px;
+    gap: 20px;
+  }
+  .img4{
+    height: 70px;
+    width: 300px;
+    margin-top: 50px;
+    gap: 20px;
+  }
+  .bold{
+    font-weight: bold;
+  }
+
+.sidebox{
+  height: "600px";
+  width: "600px";
+  
+
+}
+
+
+.sidebox{
+  background: white;
+  overflow: hidden;
+}
+
+.sidebox:hover {
+  box-shadow: 11px 11px 11px 11px rgba(61, 59, 59, 0.2); 
+}
+.boximg:hover{
+transform: scale(1.1);
+ transition: 1.2;
+}
+.kutyBox{
+  position: relative;
+  display: flex;
+  height: 90px;
+  width: 90px;
+  background-color: orangered;
+  margin-top: -80px;
+  margin-left: 50px;
+  color:white;
+  display: flex;
+}
+.imgconatainer{
+
+
+}
+.boximg2{
+  height: 250px;
+  width: 350px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+  margin: 0px;
+  
+}
+.boximg2:hover{
+  transform: scale(1.1);
+   transition: 1.2;
+  }
+  .servicehad{
+
+
+color: white;
+  }

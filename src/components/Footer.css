@@ -1,0 +1,68 @@
+.footercontainer{
+    display: flex;
+    height: 600px;
+    width:1590px;
+    background-image: url("https://cosecantinc.com/wp-content/uploads/2022/08/footer_bg.jpg");
+    margin-top: 50px;
+
+}
+.wrap1{
+    
+    height: 400px;
+    width: 300px;
+    
+    justify-content: center;
+    margin-left: 150px;
+    margin-top: 60px;
+
+}
+.wrap2{
+    height: 400px;
+    width: 300px;
+    justify-content: center;
+
+    margin-top: 60px;
+    text-align: left;
+    line-height: 20px;
+  
+
+}
+.opacitywrap{
+    background-color: #1a1919;
+    width: 1590px;
+    opacity: 0.8;
+    
+
+}
+.icon1:hover{
+    background: orangered;
+  color: red;
+
+}
+.botomfooter{
+display: flex;
+height: 120px;
+width: 1300px;
+justify-content: center;
+background-color: rgb(63, 61, 61);
+
+justify-content: center;
+margin-left: -650px;
+margin-top: 60px;
+text-align: center;
+align-items: center;
+
+
+
+}
+.wrap2:hover{
+    color: white;
+    cursor: pointer;
+}
+hr {
+    height: 3px;
+    width: 290px;
+border: none;
+    background: linear-gradient(90deg, rgba(255, 166, 1, 0.836) 0%,  rgb(36, 36, 36) 15%);
+  
+}

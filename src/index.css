@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.feedcont{
+  display: flex;
+  height: 900px;
+width: 209vh;
+background-color: aliceblue;
+  text-align: center;
+  align-items: center;
+
+}
+.headingcont{
+
+ 
+  text-align: center;
+  margin-top: 50px;
+}
+.arrow:hover{
+  background: orangered;
+  color: white;
+  transition: 0.5;
+
+}
+.arowback:hover{
+  color: white;
+}
+
+
+.hoverbut:hover{
+  background: red;
+  transition: 1s;
+
+}
+.arrw:hover{
+  color: white;
+}
+
+
+.scrol{
+  scroll-behavior: smooth;
+}
+
+.servtop3{
+
+  display: flex;
+  position: static;
+height: 400px;
+width: 1580px;
+  background-image: url("https://cosecantinc.com/wp-content/uploads/2022/10/page-title.jpg");
+  align-items: center;
+
+  justify-content: center;
+
+  text-decoration: none;
+  color: white;
+
+  font-size: medium;
+  font-size: 70px;
+
+
+}
+.servtop4{
+  position: absolute;
+    height: 40px;
+    width: 480px;
+    background-color: rgb(145, 145, 145);
+  
+    color: white;
+
+    font-size: medium;
+    font-size: 70px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+   
+
+}
+.servtop5{
+  position: absolute;
+    height: 40px;
+    width: 380px;
+    background-color: rgb(145, 145, 145);
+  
+    color: white;
+
+    font-size: medium;
+    font-size: 70px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+   
+
+}
+.servtop4:hover{
+ color: orangered;
+}
+.servtop6{
+  position: absolute;
+  height: 40px;
+  width: 380px;
+  background-color: rgb(145, 145, 145);
+
+  color: white;
+
+  font-size: medium;
+  font-size: 70px;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.7;
+
+}
+html{
+  scroll-behavior: smooth;
+}
+
+.types7{
+
+
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  transition-delay: 4s;
+  
+  
+
+}
+@keyframes example {
+  0%   {right:0px; top:0px;}
+
+
+  75%  { right:0px; top:0px;}
+ 
+}
+
+/*.arowback:hover{
+  position: relative;
+  animation-name: ex1;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  transition: 1s;
+}
+@keyframes ex1 {
+  0%   {left:0px; top:0px;}
+
+  50%  { left:0px; top:70px;}
+   
+  
+ 
+}
+*/
+.types7{
+
+}
+.SERVTYPE:hover{
+  color: orangered;
+}
+.servtyp:hover{
+  color: orangered;
+}
+.nav-up {
+  top: -70px;
+}

@@ -1,0 +1,29 @@
+.feedcont{
+    display: flex;
+    height: 30px;
+  width: 209vh;
+background-image: url("");
+
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+  
+}
+.headingcont{
+
+    text-align: center;
+    margin-top: 50px;
+}
+.arrow:hover{
+    background: orangered;
+    color: white;
+    transition: 0.5;
+
+}
+.arowback:hover{
+    color: white;
+}
+.containerfeed{
+    background-image: url("https://cosecantinc.com/wp-content/uploads/2022/10/testi-bg-1.png");
+
+}

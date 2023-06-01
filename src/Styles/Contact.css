@@ -1,0 +1,46 @@
+.contact{
+    height: 800px;
+    width: 500px;
+    display: flex;
+    position: static;
+    color: black;
+ background-color: rgb(255, 255, 255);
+ line-height: 50px;
+ margin-top: 30px;
+
+}
+.conatctbox:hover{
+background: white;
+
+transition: 0.8s;
+box-shadow: 5px  5px 5px 5px rgb(172, 172, 172);
+}
+.langicon:hover{
+   scale: 1.2;
+   transition: 0.8s;
+
+
+}
+.experts{
+    display: flex;
+  position: absolute;
+    height: 800px;
+    width: 750px;
+    background-color: rgb(236, 236, 236);
+    margin-left: 500px;
+    margin-top: 20px;
+}
+.mesagebox{
+    height: 200px;
+    width: 500px;
+    margin: 20px;
+    background-color: white;
+
+
+}
+.sendme:hover{
+    background-color: orangered;
+   
+    background: orangered;
+
+}

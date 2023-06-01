@@ -1,0 +1,226 @@
+.homeimg{
+display: flex;
+background-image: url('../images/heros\ \(1\).png');
+height: 100vh;
+background-size: cover;
+
+
+ animation-name: example;
+ position: relative;
+  animation-duration: 4s;
+  animation-delay: -2s;
+}
+
+@keyframes example {
+  0%   { left:0px; top:0px;}
+  25%  { left:200px; top:0px;}
+  50%  {left:200px; top:0px;}
+  75%  { left:0px; top:0px;}
+  100% { left:0px; top:0px;}
+}
+
+
+
+
+
+@keyframes img {
+  from {top: 0px;}
+  to {top: 40px;}
+}
+
+
+
+
+.types{
+  animation-name: img;
+  animation-duration: 2s;  
+  animation-fill-mode: forwards;
+  position: relative;
+transition: 1s;
+ 
+  
+}
+.types2{
+  animation-name: types2;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  position: relative;
+  transition: 1s;
+  animation-delay: -2s;
+  animation-duration: 4s;
+ 
+
+}
+@keyframes types2{
+
+
+  0%   { left:0px; top:0px;}
+  25%  { left:200px; top:0px;}
+  
+
+}
+
+.muibutt {
+ position: fixed;
+  width: 200px;
+  border-radius: 5px;
+ background-color: orangered;
+  background-image: #fa7e36;
+  background-image: -moz-linear-gradient(top, #fc7915 0%, #f46200 100%); 
+  background-image: -webkit-linear-gradient(top, #ff6a0d 0%,#f6781e 100%); 
+  background-image: linear-gradient(to bottom, #ff810c 0%,#fe6016 100%); 
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 300ms ease-in-out;
+  transition: background 300ms ease-in-out;
+}
+.muibutt:hover {
+  background-position: -200%;
+  transition: background 300ms ease-in-out;
+background-color: red;
+}
+
+.subbox{
+  background-image: #ffffff;
+  background-image: -moz-linear-gradient(top, #ffffff 50%, #ffffff 50%); 
+  background-image: -webkit-linear-gradient(top, #ffffff 50%,#ffffff 50%); 
+  background-image: linear-gradient(to bottom, #ffffff 50%,#ffffff 50%); 
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 500ms ease-in-out;
+  transition: background 200ms ease-in-out;
+
+  background: linear-gradient(#fffdfd, #ffffff 50%, #474747 50%, #616161);
+
+ 
+  background-size: 100% 200%;
+  /*trasition effect for background*/
+  transition: background 1s;
+
+
+}
+.subbox:hover {
+  background-position: -300%;
+
+background-color: rgb(117, 117, 117);
+
+color: white;
+background-position: 100% 100%;
+}
+.typsp{
+  height: 500px;
+  width: 600px;
+  margin-left: 500px;
+  margin-top: 30px;
+  text-align: left;
+  line-height: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+}
+.iconcontainer{
+  width: 400px;
+  height: 300px;
+  color: rgb(68, 68, 68);
+
+  scroll-behavior: smooth;
+}
+.iconm{
+  width: 60px;
+  color: orange;
+  background-color:orangered ;
+  margin-top: 20px;
+  animation:	iconm 1s cubic-bezier(.36,.07,.57,.99) infinite;
+}
+.leftbox{
+  height: 250px;
+  width: 180px;
+  background-color: #dedede;
+  text-align: center;
+  margin-left: 550px;
+ margin-top: -120px;
+  color: black;
+  background-color: rgb(243, 243, 243);
+  transition: transform 1s; 
+  border-top-color:  orangered  ;
+border-top-style: solid;
+
+  
+
+  
+  
+}
+.leftbox {
+ 
+
+  animation-name: example4;
+  animation-duration: 4s;
+}
+
+@keyframes example4 {
+  from {background-color: rgb(255, 255, 255);}
+  to {background-color: rgb(255, 255, 255);}
+}
+
+.leftbox {
+  cursor: pointer;
+  transition: 3s;
+}
+
+.leftbox:hover {
+   
+    box-shadow: 11px 11px 11px 11px rgba(182, 182, 182, 0.2); 
+  color: #f46200;
+  background: white;
+  transition: 0.2;
+  
+
+}
+.typs6:hover{
+  color: #f46200;
+
+   
+
+}
+.imgfil{
+ height: 50px;
+ width: 50px;
+color: #f46200;
+}
+.img{
+  margin-top: 50px;
+}
+/*image rotate*/
+.imgfil {
+	cursor: pointer;	
+
+transition: 1s;
+}
+.imgfil:hover{
+  height: 50px;
+  width: 50px;
+  transform:rotateY(180deg)
+}
+.icu:hover{
+  color: white;
+}
+
+/*background style */
+
+div {
+  
+}
+
+div:hover {
+
+}
+.scroll-container {
+
+  scroll-behavior: smooth;
+  }
+
+  .homeimhfront{
+    background-color: #616161;
+    height: 100vh;
+  }

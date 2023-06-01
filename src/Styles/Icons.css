@@ -1,0 +1,34 @@
+ 
+ 
+.iconsrocket{
+
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20px;
+
+    color: rgb(253, 88, 88);
+    font-size: 50px;
+}
+.projects{
+    background-image: url("https://lh3.googleusercontent.com/ZuMZuPVaMbOonvpp_4ySvV0ViQdas7HZOzIFCkWVL06Jq8OQioUaf_5z7LM_5Xb5EhALJXoZhHjW8_DqBYmjg825BRfGq8Byn_XKmIRU");
+}
+.topbox:hover{
+border-radius: 110px;
+}
+.topbox{
+
+}
+
+.topbox:hover{
+
+
+  transition: all 1s;
+
+      border-radius: 110px
+   
+    
+      
+
+  
+   
+}
